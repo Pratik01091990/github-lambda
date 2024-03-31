@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     
     data = pd.read_json(StringIO(file_content))
     print(data)
-    print("New")
+    print("New1")
     return {
         'statusCode': 200,
         'body': json.dumps('Hello from Lambda!')
